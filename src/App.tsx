@@ -88,7 +88,7 @@ function App() {
         <div className="subtle">
           Board ID: {boardId} |{" "}
           <a href="https://github.com/tmyt/idea-elemental">Forked from tmyt/idea-elemental
-          </a>
+          </a>{" "}
             Version: {__COMMIT_HASH__}
         </div>
       </div>

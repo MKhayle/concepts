@@ -6,10 +6,10 @@ import {
 } from "./classNames";
 
 test("getMarkerClassName", () => {
-  expect(getMarkerClassName(0)).toBe("marker circle");
-  expect(getMarkerClassName(1)).toBe("marker cross");
-  expect(getMarkerClassName(2)).toBe("marker triangle");
-  expect(getMarkerClassName(3)).toBe("marker square");
+  expect(getMarkerClassName(0)).toBe("marker cross");
+  expect(getMarkerClassName(1)).toBe("marker square");
+  expect(getMarkerClassName(2)).toBe("marker circle");
+  expect(getMarkerClassName(3)).toBe("marker triangle");
 });
 
 test("getDebuffClassName", () => {

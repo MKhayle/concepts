@@ -1,13 +1,13 @@
 export function getMarkerClassName(symbol: number) {
   switch (symbol) {
     case 0:
-      return "marker circle";
-    case 1:
       return "marker cross";
-    case 2:
-      return "marker triangle";
-    case 3:
+    case 1:
       return "marker square";
+    case 2:
+      return "marker circle";
+    case 3:
+      return "marker triangle";
   }
 }
 
